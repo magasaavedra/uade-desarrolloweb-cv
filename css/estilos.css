@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+   
+header{
+    position: absolute;
+    width: 100%;
+    height: 98px;
+    left: 0px;
+    top: 0px;
+    background: #F8C7A7;
+
+}
+header .menu{
+margin-left: 500px;
+margin-top: 30px;
+}
+header .menu a{
+    margin: 0 20px;
+    color: black;
+    display: inline-block;
+    padding: 9px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size:  1.2em;
+
+
+}
+header .menu a:hover{
+    border-bottom: 2px solid black;
+}
+
+main .cuerpo{
+    width: 100%;
+}
+main .cuerpo.imagen_fondo{ margin-top:  -180px;}
+
+main .cuerpo .imagen_fondo img{
+    position:fixed;
+    width: 60%;
+    right: 0px;
+    top:97.19px;
+    background: url(img/.imagen_fondo);
+    vertical-align: top;
+}
+main .cuerpo .imagen_cv{
+position: absolute;
+width: 30%;
+right: 0;
+bottom: 160px;
+}
+
+main .cuerpo p{
+margin-top: 300px;
+margin-left: 250px;
+font-size: 30px;
+}
+
+footer{
+display: flex;
+position:absolute;
+bottom:0px;
+width: 100%;
+height: 162px;
+background: #F8C7A7;
+justify-content: space-around;
+}
+footer p{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+/*----------------Estudios----------------*/
+
+main .estudios{
+position: absolute;
+width: 1010px;
+height: 359px;
+left: 203px;
+top: 149px;
+border: 3px solid #FF8B3D;
+border-radius: 50px;
+}
+main .estudios p{position: absolute;
+    left: 279px;
+    top: 25px;
+    font-size: 20px;
+    line-height: 37px;
+    color: #000000;}
+
+main .estudios img{
+position: absolute;
+margin-left: -50px;
+transform: rotate(121.08deg);
+}
+
+/*----------------Experiencia----------------*/
+main .experiencia{
+box-sizing: border-box;
+position: absolute;
+width: 1009px;
+height: 351px;
+left: 128px;
+top: 161px;
+border: 3px solid #FF8B3D;
+border-radius: 50px;
+}
+main .experiencia p{
+position: absolute;
+width: 712px;
+height: 172px;
+left: 40px;
+top: 20px;
+font-weight: 400;
+font-size: 25px;
+line-height: 37px;
+
+color: #000000;
+}
+main .experiencia img{
+    position: absolute;
+    left: 500px;
+    top: 5px;
+}
+
+/*----------------COMPETENCIAS----------------*/
+main .competencias{
+position: absolute;
+width: 50%;
+height: 50%;
+left: 156px;
+top: 138px;
+border: 3px solid #FF8B3D;
+border-radius: 50px;
+}
+main .competencias p{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 20px;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;}
+main .competencias .tecnicas{left: 40px;}
+main .competencias .blandas{left: 708px;}
+main .competencias img{
+position: absolute;
+left: 300px;
+top: 20px;
+}
+
+/*----------------COMPETENCIAS----------------*/
+
+main .contacto{
+box-sizing: border-box;
+position: absolute;
+width: 790px;
+height: 387px;
+left: 500px;
+top: 145px;
+border: 3px solid #FF8B3D;
+border-radius: 50px;
+}
+main .contacto p{
+position: absolute;
+left: 50px;
+top: 25px;
+font-weight: 400;
+font-size: 32px;
+/* padding-bottom: 50px; */
+color: #000000;
+}
+main .contacto a{
+position: relative;
+text-decoration: none;
+color: black;
+left: 100px;
+top: 150px;
+font-weight: 400;
+font-size: 25px;
+color: #000000;
+display: list-item;
+padding-bottom: 15px;
+}
+main .contacto img{
+position: absolute;
+left: 300px;
+top: 0px;
+}
