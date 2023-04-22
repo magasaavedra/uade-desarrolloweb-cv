@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -58,10 +60,12 @@ bottom: 160px;
 }
 
 main .cuerpo p{
-margin-top: 200px;
+margin-top: 300px;
 margin-left: 250px;
 font-size: 30px;
+line-height: 70px;
 }
+main .cuerpo span {font-family: 'Pacifico', cursive; font-size: 35px;}
 
 footer{
 display: flex;
