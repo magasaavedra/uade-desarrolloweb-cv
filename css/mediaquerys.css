@@ -28,6 +28,7 @@
         font-size: 18px;
         margin: 130px 5px 50px 5px;
         text-align: center;
+        line-height: 50px;
     }
     body footer{
         display: flex;
@@ -62,6 +63,6 @@
         font-size: 18px;
         padding-bottom: 15px;
         }
-   
+        main .cuerpo span {font-family: 'Pacifico', cursive; font-size: 25px;}
    
  }
