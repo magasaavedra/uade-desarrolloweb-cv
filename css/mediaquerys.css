@@ -1,0 +1,153 @@
+
+input, label{
+    display: none;
+}
+
+/*----------------MEDIA QUERYS------------*/
+ @media screen and (max-width:800px) {
+    header .menu{
+        font-size: 10px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+    main .experiencia, main .contacto{position: fixed;}
+    main .cuerpo .imagen_fondo img, 
+    main .estudios img, main .competencias img {
+        display: none;
+        overflow: hidden;
+    }
+    main .experiencia img{ width: 400px; margin-left: -450px; margin-top: 100px;}
+    main .contacto img{ width: 200px; margin-left: -150px; margin-top: 80px;}
+    main .cuerpo .imagen_cv img{
+        width: 200px;
+        margin-left: -100px;
+    }
+    main .cuerpo .imagen_cv{
+        display: flex;
+        align-items: center;
+    }
+    body main .cuerpo p{
+        font-size: 18px;
+        margin: 30px 5px 50px 5px;
+        text-align: center;
+        line-height: 50px;
+    }
+    body footer{
+        display: flex;
+        position:absolute;
+        font-size: 12px;
+        justify-content: space-around;
+    }
+    main .estudios, main .experiencia, main .competencias, main .contacto{
+        border: none;
+        left: 0;
+        width: 100%;
+        
+    }
+    main .competencias .tecnicas{ margin-left: -20px;}
+    main .competencias .blandas{
+        position: static;
+        justify-content: right;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    main .estudios p, main .experiencia p, main .competencias p{
+        font-size: 14px;
+        left:5px;
+        text-align: left;
+       
+       
+    }
+    main .contacto a, main .contacto p{
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        padding-bottom: 15px;
+        }
+        main .cuerpo span {font-family: 'Pacifico', cursive; font-size: 25px;}
+   
+        input:checked ~ ul{ /*muestra todas el contenido de todas las etiquetas ul */
+            display:none;
+        }
+        
+        
+        input:checked ~ label { /*muestra todo el contenido de todas las etiquetas label */
+            background: #F8C7A7;
+            
+            
+        }
+        
+        nav .anclas {
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        li{/*elimina el margen  de cada botón */
+            margin: 0px;
+            text-align: left;
+            display: block;
+            
+        }
+        
+        
+        label { /* dibuja la etiqueta ☰  con formato botón */
+            position: absolute;
+            box-sizing: border-box;
+            display: block;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            font-weight: bold;
+            text-align: center;
+            user-select: none;
+            background-color: #F8C7A7;
+            margin-right: 91%;
+            z-index: 1;
+            
+    }
+        
+
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            margin-left: 25px;
+        }
+    
+    
+        main .fotocv{
+            display: flex;
+            justify-content: center;
+            width: 200px;
+            margin-left: 19%;
+        }
+
+        header nav .logo img{
+            display: flex;
+            width: 150px;
+            justify-content: right;
+        }
+
+        header nav .anclas li {
+            padding: 10px;
+            border-right: solid 1px rgb(#F8C7A7, black, black);
+            background-color: rgb(241, 234, 234);
+            
+        }
+
+        header nav{
+            height: 60px;
+        }
+
+
+ }
+
+
+ 
